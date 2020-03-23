@@ -15,6 +15,14 @@ The Mean Absolute Error, Squared Mean Error were better compare to rbf kernel.
 ![rbf](https://user-images.githubusercontent.com/37845653/77282374-bea9bd00-6cef-11ea-9cbb-3552c2e37033.JPG)
 ![linear](https://user-images.githubusercontent.com/37845653/77282376-bf425380-6cef-11ea-840c-a5ceda345cef.JPG)
 ![metric](https://user-images.githubusercontent.com/37845653/77282370-bc476300-6cef-11ea-823e-1380b6f7d162.JPG)
+      - Here prediction1- rbf kernel
+      -      prediction2- linear kernel
+ - rbf kernel
+   - Mean Absolute error: 0.10702785363725782.
+   - Mean Square error: 0.025285262849815433.
+ - Linear kernel
+   - Mean Absolute error: 0.09926261339060975.
+   - Mean Sqaure error: 0.022387644415387743.
 
 Since while predicting the Infect_prob of "Test dataset.xlsx" through training "Train dataset.xlsx" I used just rbf kernel along with C and gamma parameter taking the value randomly. I tried using linear kernel but it took lot of time to train due to time constraint I used rbf kernel. Even though I tried to get best model and parameter using Grid Search Optimization but it took lot of time and due to time 
 constraint I just used rbf kernel to train the model and predict the Infect_Prob.  
