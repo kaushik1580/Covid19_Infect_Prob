@@ -1,6 +1,6 @@
 # Flipr_Hackathon
 
-This project is all about predicting the COVID-19 Infect_Prob in a person using the various different parameter availiable in the dataset. The project is divided into 2 parts.
+This project is all about predicting the COVID-19 Infect_Prob in a person using the various different parameter available in the dataset. The project is divided into 2 parts.
 
 - Part-01: 
 The objective of the first part of the problem statement is to predict the probability of a person getting infected by Covid-19 on 20th March 2020. The output file 01 should contain only people_ID and the respective infect_prob for the test data.
